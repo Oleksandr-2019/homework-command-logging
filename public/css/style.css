@@ -1,0 +1,61 @@
+
+/* for header */
+
+.header-main {
+    padding: 30px 30px;
+    text-align: center;
+    background-color: #1165f1;
+    border-bottom: 5px solid red;
+}
+
+.header-main__logo {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* for footer */
+
+.footer-main {
+    padding: 30px 30px;
+    text-align: center;
+    background-color: #000000;
+    border-top: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.footer-main__copyright {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* main style */
+
+.main-title {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+
+/* for footer in bottopm part page */
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    {% endblock %}
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="content">
+
+        <!-- header-main -->
+        <header class="header-main">
+            <a class="header-main__logo" href="#">
+                MY LOGGING PROJECT
+            </a>
+        </header>
+
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+
+    </div>
+
+
+    <!-- footer-main -->
+    <div class="footer">
+        <footer class="footer-main">
+                    <span class="footer-main__copyright">
+                        MY SECURITY PROJECT &copy; Copyright
+                    </span>
+        </footer>
+    </div>
+
+</div>
+</body>
+</html>
